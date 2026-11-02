@@ -1,0 +1,8 @@
+{
+  "hub_port": "COM5",
+  "machines": [
+    { "id": 1, "name": "左副机", "width": 1920, "height": 1080 },
+    { "id": 0, "name": "主机", "master": true },
+    { "id": 2, "name": "右副机", "width": 1920, "height": 1080 }
+  ]
+}

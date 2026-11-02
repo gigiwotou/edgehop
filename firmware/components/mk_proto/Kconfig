@@ -1,0 +1,15 @@
+menu "MouseKey"
+
+    config MK_CHANNEL
+        int "Wi-Fi channel used by ESP-NOW"
+        range 1 13
+        default 1
+        help
+            Hub and every dongle must use the same channel.
+
+    config MK_DEVICE_ID
+        int "Dongle device id (must match the PC target id)"
+        range 1 254
+        default 1
+
+endmenu
